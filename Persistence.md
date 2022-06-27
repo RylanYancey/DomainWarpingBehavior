@@ -2,7 +2,7 @@
 
 To start, lets create a very simple Configuration:
 ```cpp
-Fractal fractal (5 /*octaves*/,0.01 /*freq*/,0.05 /*amp*/,1.5 /*lac*/,0.5 /*pers*/,255.0 /*max*/,0.0 /*min*/);
+Fractal fractal (5 /*octaves*/,0.01 /*freq*/,1.5 /*lac*/,0.5 /*pers*/,255.0 /*max*/,0.0 /*min*/);
 ```
 This configuration is very basic, and creates an image like this:\
 <img src="https://github.com/RylanYancey/DomainWarpingBehavior/blob/main/images/Screenshot_20220627_132919.png" width="300" height="300">
