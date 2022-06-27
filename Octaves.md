@@ -26,3 +26,7 @@ You can see that this image has alot of "detail". It does not have smooth edges.
 You can see the stark difference between these octave levels. The higher the octave, the more stronger this "Detail" effect becomes. There is a diminishing returns, however.\
 15 Octaves:\
 <img src="https://github.com/RylanYancey/DomainWarpingBehavior/blob/main/images/15octaves.png" width="300" height="300">
+
+# Pitfall of Octaves
+
+As Octaves increases, the distribution of values goes toward the center of the range. For example, if your range is 0-255, and you have 1 octave, your distribution will be uniform. If your range is 0-255, and you have 10 octaves, a majority of your values will be around 127.5. You can see this in the images, since the image of 15 octaves is mostly gray, while the one with 1 octave is mostly black and white. 
