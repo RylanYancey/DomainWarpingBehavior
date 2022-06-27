@@ -1,4 +1,4 @@
-# How Octave change impacts Simplex Noise wave behavior. 
+# How Octave change impacts FBM wave behavior. 
 
 To start, let's create a Simplex Noise Configuration with these paramters:
 
