@@ -10,7 +10,7 @@ for (int i = 0; i < octaves; i++) {
 ```
 When lacunarity is high, the difference between octave 1 and octave x is greater, resulting in a "noisier" image. Take for example this very simple Configuration:
 ```cpp
-Fractal fractal (5 /*octaves*/,0.01 /*freq*/,0.05 /*amp*/,1.5 /*lac*/,0.5 /*pers*/,255.0 /*max*/,0.0 /*min*/);
+Fractal fractal (5 /*octaves*/,0.01 /*freq*/,1.5 /*lac*/,0.5 /*pers*/,255.0 /*max*/,0.0 /*min*/);
 ```
 This configuration is very basic, and gives us this image:
 
